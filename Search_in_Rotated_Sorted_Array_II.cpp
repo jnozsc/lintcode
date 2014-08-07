@@ -19,7 +19,7 @@ class Solution {
   public:
     bool search(vector<int>& A, int target) {
         // write your code here
-        return searchRecursion(A, 0, A.size() - 1, target)
+        return searchRecursion(A, 0, A.size() - 1, target);
     }
 
     bool searchRecursion(vector<int>& A, int begin, int end, int target) {
